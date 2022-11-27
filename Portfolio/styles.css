@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Playball&family=Sono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: rgb(8, 7, 7);
+    width: 20vw;
+    font-family: 'Sono', sans-serif;
+    color: white;
+    height: 100vw;
+    position: fixed;
+
+}
+
+#myname {
+    margin-top: 155px;
+    height: 20px;
+    margin-bottom: -163px;
+    margin-left: 38px;
+    margin-right: 135px;
+    border: 2px solid white;
+    border-radius: 20px 5px;
+    padding: 0 0 12px 9px;
+
+
+}
+
+.social-icons a { 
+    font-size: 33px;
+    display: inline-block;
+    background: black;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0 0 15px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin: 191px 7px -173px 4px;
+}
+.name-sec {
+    margin-top: -200px;
+}
+
+#home {
+    display: flex;
+    column-gap: 1px;
+}
+
+#about {
+    display: flex;
+    column-gap: 9px;
+}
+
+#services {
+    display: flex;
+    column-gap: 9px;
+}
+
+#resume {
+    display: flex;
+    column-gap: 9px;
+}
+
+#contact {
+    display: flex;
+    column-gap: 9px;
+}
+
+.profile img {
+    width: 130px;
+    margin-left: 38px;
+    border-radius: 20px 45px;
+    margin-bottom: -132px;
+}
+
+.sidebar nav {
+    padding: 143px;
+    margin-top: 84px;
+    margin-left: -108px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 23px 0;
+    padding-bottom: 5px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sidebar nav li a:hover {
+    color: rgb(133, 100, 100);
+}
+
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border-bottom: 4px solid white;
+    
+
+}
+
+.info-container {
+    /* background-color: aqua; */
+    height: 45vh;
+    width: 80vw;
+    margin-top: 174px;
+    margin-left: 48vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dev-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: -187px;
+}
+
+.dev-pic img {
+    width: 246px;
+    border-radius: 23px;
+    border-bottom: 4px solid white;
+
+    
+}
+
+.name {
+    font-size: 83px;
+    font-family: 'Sono', sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.hello {
+    font-size: 33px;
+    color: aliceblue;
+}
+
+.about1 {
+    font-size: 33px;
+    color: aliceblue;
+    font-family: 'Playball', cursive;
+}
+
+/* css for about */
+#ab{
+    margin-left: 42vh;
+    margin-bottom: 30vh;
+    border-bottom: 4px solid white;
+    font-family: 'Sono', sans-serif;
+}
+
+.text{
+    color: white;
+}
+#heading{
+    margin: 57px 0 55px 12px;
+    text-decoration: underline bisque ;
+}
+.uppara{
+    margin-left:9px ;
+}
+  
+.pic{
+    margin-left: 9px;
+    border-radius: 80px;
+    padding-top: 30px;
+    border-bottom: 4px solid white;
+
+}
+.specs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 342px;
+    margin-top: -578px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    
+}
+#aline{
+    margin: 9px 11px 9px 441px;
+}
+.more-about{
+    margin: 1px 1px 1px 450px;
+}
+#endpara{
+    margin: 54px 16px 11px 430px;
+    
+}
+/* css for resume */
+#res{
+    margin-left: 40vh;
+    border-bottom: 4px solid white;
+
+}
+.resume{
+    margin: auto;
+    display: flex;
+}
+.page1{
+    height: 50%;
+    width: 50%;
+}
+.page2{
+    height:840px;
+    width: 50%;
+    margin-right: 10px;
+    
+}
+#cv {
+    background-color: #f2f5ed;
+    border: 2px solid blue;
+    border-radius: 30%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 80vh;
+  }
+  /* contact .page */
+  
+  #contacts{
+    margin-left: -29vh;
+    color: #f2f5ed;
+    border-top: 4px solid wheat;
+    font-family: 'Sono', sans-serif;
+
+  }
+  #conhead{
+   margin-left: 35vh;
+  }
+  
+  
+
+  .email{
+    display: flex;
+  }
+  .form{
+    width: 100%;
+    height: 100%;
+  }
+  #name{
+    margin: 17px -35px 1px 1px;
+    padding: 13px 30px 10px 25px;
+    color: #f2f5ed;
+  }
+  #email{
+    margin: 17px -35px 1px 1px;
+    padding: 13px 30px 10px 25px;
+  }
+  #message{
+    margin: 18px 8px 9px 2px;
+    padding: 37px 146px 24px 17px;
+}
+.conpara{
+    color: #f2f5ed;
+    padding-left: 9px;
+    margin:58px 1px -115px 35vh;
+}
+.consub{
+    margin: 1px 7px 1px 1px;
+    padding: 5px 32px 5px 27px;
+    border-radius: 15%;
+    border: 2px solid blue;
+    
+}
+.consub:hover{
+    margin: 1px 7px 1px 1px;
+    padding: 8px 35px 8px 30px;
+    border-radius: 15%;
+    border: 2px solid blue;
+    cursor: pointer;
+    color: rgb(rgb(2, 18, 36), green, blue);
+}
+.social-media-container{
+    font-size: 50px;
+    height: px;
+    width: 100vw;
+    color: white;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    margin: 70px -309px -5px -3px;
+    border-radius: 20%;
+
+}
+.s-container{
+  margin: 206px -9px 13px 102px;
+  height: 400px;
+    width: 100vm;
+    padding: 100px 1px 1px 1px;
+    
+
+}
+.s-container h1{
+    padding: 1px 1px 49px 1px;
+}
+.quotes{
+    color: white;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+    text-shadow: black;
+    
+}
+#fit1{
+    height: 427px;
+    width: 402px;
+    
+    margin: 29px -6px 5px 91px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 43px;
+}
+#fit2{
+    height: 450px;
+    width: 402px;
+    margin: 29px -6px 5px 91px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 43px;
+}
+#fit3{
+    height: 427px;
+    width: 402px;
+    margin: 29px -6px 5px 91px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 43px;
+}
+#fit4{
+    height: 427px;
+    width: 402px;
+    margin: 29px -6px 5px 91px;
+    padding: 1px 1px 1px 1px;
+    border-radius: 43px;
+}
